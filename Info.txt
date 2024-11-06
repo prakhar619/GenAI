@@ -6,6 +6,7 @@ Parallel Processing Multiple tokens
 
 Architecture
     Tokenizers
+        Tiktoken
     Embedding Layer
     Tranformer Layer
         Encoder

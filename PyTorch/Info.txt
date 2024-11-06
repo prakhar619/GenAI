@@ -1,0 +1,10 @@
+Dataset
+DataLoader
+Model
+    Forward
+ 
+Training Loop   
+    No of Epochs
+    Loss 
+    Optimiser 
+    
