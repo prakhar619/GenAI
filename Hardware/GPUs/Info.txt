@@ -1,0 +1,18 @@
+Cloud and Data Center
+    All GPUs
+
+H200 Tensor Core GPU
+H100 Tensor Core GPU 
+L4 Tensor Core GPU
+L40S GPU 
+L40 GPU 
+A100 Tensor Core GPU / GH200 (Grace Hopper Superchip)
+A2 Tensor Core GPU 
+A10 Tensor Core GPU 
+A16 Tensor Core GPU 
+A30 Tensor Core GPU 
+A40 Tensor Core GPU 
+T4 Tensor Core GPU
+
+
+
