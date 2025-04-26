@@ -1,51 +1,41 @@
-GenAI
-    Everything from attention to state of the art models like ChatGPT, Whisper, Sora, Dalle etc.
+# GenAI
+Everything from attention to state of the art models like ChatGPT, Whisper, Sora, Dalle etc.
+
+Path:
 
 Basics:
-    Autoencoders                    2013
-    GAN                             2014 
-    Attention                       2017
+    Attention
         Self Attention
         Cross Attention
     Transformer 
-        Encoder
-        Decoder
     Vision Transformer
-    Diffusion Model
+    Rag
+    Graph Rag
 
-Building on Basics:
+LLMs:
+    GPT
+        GPT-1
+        GPT-2
+    
+    Llama
 
-1. LLMs
-2. Image Generation
-3. Audio Generation
-    Wavenet 
-4. Video Generation
+    Codex
+    M2M-100
+    Text Detection
+    Captioning System
+    Whisper 
+
+Image Generation:
+    Dall-E 
+        Discrete VAE
+        AutoRegressive Decoder Only Transformer
+        CLIP pair image encoder and text encoder
+    Dall-E2
+        Diffusion Model
+    Dall-E3
+
+Audio Generation:
+    WaveNet
+
+Video Generation:
     Sora
-
-
-
-
-
-
-
-
-
-    
-        
-
-
-            
-
-        
-
-
-
-    
-
-        
-
-
-
-
-
-    
