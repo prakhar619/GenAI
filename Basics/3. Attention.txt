@@ -1,0 +1,36 @@
+Self Attention
+    Input: [E1, E2, E3, E4] where input is whole sentence and E1, E2, E3,... are embeddings of words like E1 is a embedding of single word
+    Output: [S1, S2, S3, S4]        More contextual aware embedding
+
+    Input: -> 3 set of Vectors Query, Key and Value
+    The cat sat on the mat                          (Dimension)
+    [E1  E2  E3 E4 E5  E6]                          (2d matrix)
+    
+    Query :[QE1 QE2 QE3 QE4 QE5 QE6]                (2d matrix)
+    Key: [KE1 KE2 KE3 KE4 KE5 KE6]
+    Value: [VE1 VE2 VE3 VE4 VE5 VE6]
+
+    Calculate Attention Scores for each word
+        QE1.KE1     QE2.KE1                         (1 number)
+        QE1.KE2     QE2.KE2
+        QE1.KE3     QE2.KE3
+        ...         ...
+        ...         ...
+        1 Vector    1 Vector
+        for 1 word   for 1 word
+
+        Each Query Vector get multiplied to all of Key vector to get a new vector.
+
+    Apply Softmax on each Vector
+        QE1.KE1   ->   ~SE11                         (1 number)
+        QE1.KE2   ->   ~SE12
+        ...       ->   ~SE13
+
+        where ~SE1n's are probability scores (normalized) (would sum upto 1)
+
+    For each word, now we have a vector. 
+        The -> E1 -> [QE1.KE1 QE2.KE2 ...] -> [~SE11 ~SE12 ~SE13 ...]
+
+
+    Weighted Sum of values
+        Output = [Sum( ~SE11.VE1 , ~SE12.VE2 , ~SE13.VE3, )    ,    Sum( ~SE21.VE1, ~SE22.VE2, ...) ,  ]

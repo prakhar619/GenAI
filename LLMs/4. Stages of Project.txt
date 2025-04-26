@@ -1,0 +1,35 @@
+Stages of AI Project for LLMs:
+    1. Scope and Usage Definition
+    2. Data Collection
+            Data Sources
+            Preprocessing
+            Augmentation
+    3. Model Selection/Build from Scratch
+    4. Training                                            (Here Training means post training as we are only referring to model that are already trained)
+        a. Full Fine-Tuning
+        b. Parameter-Efficient Fine-Tuning (PEFT)
+            i. Reparameterization
+                    Low Rank Adaptation (LoRA)
+            ii. Additive Adjustment
+    5. Model Evaluation
+        a. Recall Oriented Understudy of Gisting Evaluation (Rouge) Score
+            i. Rouge-N
+            ii. Rouge-L
+            iii. Rouge-W
+            iv. Rouge-S
+
+        b. Bilingual Evaluation Understudy (BLEU) Score
+            i. BLEU-1
+            ii. BLEU-2
+        c. General Language Understudy Evaluation (GLUE) Score
+        d. SuperGLUE
+        e. Beyond the Imitation Game Benchmark (BIG-Bench)
+        f. BIG-Bench Lite
+        g. Holistic Evaluation of Language (HELM)
+
+    6. Deployment
+        a. Model Serving
+        b. Scalability
+        c. Security
+
+    7. Monitoring and Maintenance

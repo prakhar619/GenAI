@@ -1,0 +1,48 @@
+LangChain:
+    2018 
+    Integration with major LLM apis
+    Provides 
+        Prompt Template Abstraction
+        Major Embedding Models
+        Vector Stores 
+        Vector Indexes
+        LangSmith platform
+            debug, test, deploy, monitor AI
+        LangGraph platform
+            deploying and scaling LangGraph agents 
+
+SDK vs LangChain
+    SDK although would be more granular, more updated would be specific to model/set of Model
+
+LLM Terms
+    Temperature 
+    max_tokens
+    Chat Models
+        for dialogue chatting with models
+    Completion Models
+        for text completion
+
+Prompting
+    Adapting an existing LLM for your task is called prompt engineering.
+
+Prompting Technique 
+    1. Zero-Shot Prompting
+    2. CoT Prompting
+        Chain-of-thought
+        ReAct Paper from Google
+    3. RAG 
+        Retrieval-Augmented Generation
+    4. Tool Calling
+        Passing function along with prompt to help LLM 
+    5. Few-Shot Prompting 
+        Provide sample question/answer to get specific type of answer 
+        Type 
+        1. Static Few-Shot Prompting
+            Basic: giving small number of examples
+        2. Dynamic Few-Shot Prompting 
+            Out of set of assembled dataset, dymanically picking example to include in prompt 
+
+*Combine multiple prompting technique to get better results
+
+
+    

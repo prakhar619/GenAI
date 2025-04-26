@@ -1,0 +1,50 @@
+n-gram Model:
+    The character n depends only on previous n-1 characters.
+
+Bigram Model:
+    The next character depends only on previous character.
+
+Token
+    Can represent the individual characters, words, subwords, etc
+    Eg: cl100k 
+    Split text into segment (not necessary words) to create embedding.
+
+Embedding 
+    Numerical representation of text/word into high dimensional vector 
+
+Foundation Model can be trained either in 2 ways
+    1. Predict the next word
+    2. Predict the missing word (fill in the blanks)
+
+Instruction-Tuned LLMs
+    Foundation Models are fine-tuned to Instruction-Tuned LLMs
+        Reason: User dont need to orient sentence for LLM to complete but rather ask questions.
+        Q1. Capital of india is -> What is the capital of India 
+        Two Ways to train
+            1. Task-Specific Dataset
+                Small selected specific dataset containing question and answers 
+            2. RLHF 
+                Reinforcement learning from human feedback
+                Manually assembled datasets are augmented with user feedback received on output produced by the Model
+
+Dialogue-Tuned LLMs 
+    Models tailored for dialogue and chat purpose.
+    Instruction-Tuned Model fine-tuned to give Dialogue-Tuned LLM
+    2 ways to train 
+        1. Dialogue Dataset 
+            ?
+        2. Chat format
+            Include "user", "system" and "assistant"
+            ?
+
+Fine-Tuned LLMs
+    Although dialogue and intruction llm are fine-tuned also
+    But here we mean more fine-tuned model which become specific to a single domain 
+
+For Here 
+    LLM -> Instruction-tuned LLM
+    Chat Bot -> Dialogue-instructed LLM 
+    
+     
+    
+

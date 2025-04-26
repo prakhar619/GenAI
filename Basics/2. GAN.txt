@@ -1,0 +1,11 @@
+GAN:    
+    Generative Adversarial Network
+    2 Neural Network
+        Generator
+        Discriminator
+
+    Variants
+        DCGAN (Deep Convolutional GAN)
+        WGAN  (Wasserstein GAN)
+        StyleGAN
+

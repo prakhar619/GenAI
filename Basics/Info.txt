@@ -1,0 +1,14 @@
+Attention -> MultiHead Attention -> Tranformer
+
+Transformer replaced LSTM
+Parallel Processing Multiple tokens
+
+
+Architecture
+    Tokenizers
+        Tiktoken
+    Embedding Layer
+    Tranformer Layer
+        Encoder
+        Decoder
+    Un-embedding Layer 

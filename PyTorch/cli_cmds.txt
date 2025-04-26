@@ -1,0 +1,17 @@
+Pip Commands Lines/ CLI 
+    pip install packageName 
+    pip freeze > requirements.text 
+    pip list 
+    pip install -r requirements.txt
+
+Create virtual Environment
+python -m venv environmentName1
+
+Activate virtual Environment
+Windows:
+    .\environmentName1\Scripts\Activate.ps1
+Command Prompt:
+    .\environmentName1\Scripts\activate.bat
+Bash or Linux:
+    .\environmentName1\Scripts\activate 
+

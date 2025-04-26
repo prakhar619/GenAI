@@ -1,0 +1,10 @@
+Image Generation:
+    Dall-E 
+        Discrete VAE
+        AutoRegressive Decoder Only Transformer
+        CLIP pair image encoder and text encoder
+    Dall-E2
+        Diffusion Model
+    Dall-E3
+    Stable Diffusion
+    Imagen

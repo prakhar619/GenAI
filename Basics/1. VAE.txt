@@ -1,0 +1,3 @@
+VAEs:   
+    Variational Autoencoders
+    Encode input data into latent space and then decode it back to original space
