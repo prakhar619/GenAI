@@ -41,9 +41,21 @@ Fine-Tuned LLMs
     Although dialogue and intruction llm are fine-tuned also
     But here we mean more fine-tuned model which become specific to a single domain 
 
-For Here 
+From Here On:
     LLM -> Instruction-tuned LLM
     Chat Bot -> Dialogue-instructed LLM 
+
+
+    BERT
+
+LLM Architecture
+    Tokenizers
+        Tiktoken
+    Embedding Layer
+    Tranformer Layer
+        Encoder
+        Decoder
+    Un-embedding Layer 
     
      
     

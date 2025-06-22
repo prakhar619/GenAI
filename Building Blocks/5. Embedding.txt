@@ -1,0 +1,8 @@
+Applications of Embedding
+1. Search
+    Find the most relevant document
+2. Clustering
+    Dividing them into group
+3. Classification
+4. Recommendation
+5. Detecting Anomalies

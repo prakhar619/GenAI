@@ -27,6 +27,7 @@ Prompting
 
 Prompting Technique 
     1. Zero-Shot Prompting
+        No Prompting at all; Just the basic input/instruction to LLM
     2. CoT Prompting
         Chain-of-thought
         ReAct Paper from Google

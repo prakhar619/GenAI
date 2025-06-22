@@ -1,0 +1,17 @@
+RAG: Retrieval Augmentation Generation
+
+Basic RAG:
+1. Indexing
+2. Retrieval
+3. Generation
+
+Advanced RAG:
+1. Query Transformation
+    a. Rewrite-Retrieve-Read
+    b. Multi-Query Retrieval
+    c.
+    d. 
+2. Query Routing
+3. Query Construction
+4. MultiModal/Semistructured index
+5. Postprocessing

@@ -1,9 +1,0 @@
-Transformer
-    Encoder
-        Self Attention
-        Feed-Forward Neural Network
-
-    Decoder
-        Self Attention
-        Encoder-Decoder Attention
-        Feed-Forward Neural Network

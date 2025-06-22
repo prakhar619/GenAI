@@ -1,0 +1,15 @@
+Transformer
+    Encoder
+        Self Attention
+        Feed-Forward Neural Network
+
+    Decoder
+        Self Attention
+        Encoder-Decoder Attention
+        Feed-Forward Neural Network
+
+
+Attention -> MultiHead Attention -> Tranformer (Encoder and Decoder)
+
+Transformer replaced LSTM
+Parallel Processing Multiple tokens
