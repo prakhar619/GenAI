@@ -9,9 +9,13 @@ Advanced RAG:
 1. Query Transformation
     a. Rewrite-Retrieve-Read
     b. Multi-Query Retrieval
-    c.
-    d. 
+    c. RAG Fusion
+    d. HyDE
 2. Query Routing
+    a. Logical Routing
+    b. Semantic Routing
 3. Query Construction
+    a. Text to Meta Filter
+    b. Text to SQL
 4. MultiModal/Semistructured index
 5. Postprocessing
